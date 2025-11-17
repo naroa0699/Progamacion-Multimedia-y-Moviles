@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_centerInParent="true"
+        android:stretchColumns="*">
+
+        <!-- FILA 1 -->
+        <TableRow>
+            <Button android:backgroundTint="#F7C9A0" android:layout_margin="2dp"/>
+            <Button android:backgroundTint="#F7C9A0" android:layout_margin="2dp"/>
+            <Button android:backgroundTint="#F7C9A0" android:layout_margin="2dp"/>
+            <Button android:backgroundTint="#F7C9A0" android:layout_margin="2dp"/>
+        </TableRow>
+
+        <!-- FILA 2 -->
+        <TableRow>
+            <Button
+                android:layout_span="4"
+                android:backgroundTint="#F7C9A0"
+                android:layout_margin="2dp"/>
+        </TableRow>
+
+        <!-- FILA 3 -->
+        <TableRow>
+            <Button
+                android:layout_span="2"
+                android:backgroundTint="#F7C9A0"
+                android:layout_margin="2dp"/>
+            <Button
+                android:layout_span="2"
+                android:backgroundTint="#F7C9A0"
+                android:layout_margin="2dp"/>
+        </TableRow>
+
+        <!-- FILA 4 -->
+        <TableRow>
+            <Button android:backgroundTint="#F7C9A0" android:layout_margin="2dp"/>
+            <Button android:backgroundTint="#F7C9A0" android:layout_margin="2dp"/>
+            <Button android:backgroundTint="#F7C9A0" android:layout_margin="2dp"/>
+            <Button android:backgroundTint="#F7C9A0" android:layout_margin="2dp"/>
+        </TableRow>
+
+    </TableLayout>
+</RelativeLayout>
