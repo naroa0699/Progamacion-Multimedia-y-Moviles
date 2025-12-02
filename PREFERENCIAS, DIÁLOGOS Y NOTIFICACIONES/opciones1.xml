@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="CATEGORIA 1">
+        <CheckBoxPreference
+            android:key="clave_check_unico.so"
+            android:title="UNICO SISTEMA OPERATIVO"
+            android:summary="Marca si tienes preferencia por un solo 5.0"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="CATEGORIA 2">
+        <ListPreference
+            android:key="clave_lista.so"
+            android:title="SISTEMA OPERATIVO"
+            android:summary="Pulsa para elegir sistema operativo"
+            android:dialogTitle="SISTEMA OPERATIVO"
+            android:entries="@array/lista1"
+            android:entryValues="@array/clavelista1"/>
+
+        <EditTextPreference
+            android:key="clave_edit_version"
+            android:title="VERSION DEL SISTEMA"
+            android:summary="Pulsa para introducir la version del Sistema"
+            android:dialogTitle="INTRODUCE VERSION"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
